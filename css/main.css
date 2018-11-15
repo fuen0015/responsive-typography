@@ -39,6 +39,7 @@ article > p:last-child {
 }
 
 blockquote {
+  margin: 0;
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
@@ -46,4 +47,16 @@ blockquote {
 
 .quote {
   color: #999;
+  max-width: 43em;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+header p {
+  margin-top: 0;
+}
+
+ol {
+  padding: 0 1em;
 }
