@@ -10,12 +10,29 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  line-height: 1.3;
+  font-family: "Crimson Text", serif;
 
   color: #222;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin-top: none;
+  margin-bottom: 1.3rem;
+}
+
+article p {
+  margin-top: none;
+  margin-bottom: 1.3rem;
+}
+
+article ol {
+  margin-top: none;
+  margin-bottom: 1.3rem;
 }
 
 article {
@@ -54,6 +71,7 @@ blockquote {
 h1 {
   margin-bottom: 0;
 }
+
 header p {
   margin-top: 0;
 }
@@ -68,34 +86,41 @@ ol {
     font-size: 100%;
     line-height: 1.3;
   }
+
 }
-  @media only screen and (min-width: 38em) {
 
-    html {
-      font-size: 110%;
-      line-height: 1.4;
-    }
+@media only screen and (min-width: 38em) {
 
-    article {
-      margin-right: auto;
-      margin-left: auto;
-    }
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
-    blockquote {
-      margin-right: auto;
-      margin-left: auto;
-    }
+  article {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  blockquote {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 }
-    @media only screen and (min-width: 60em) {
 
-      html {
-        font-size: 120%;
-        line-height: 1.5;
-      }
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
 }
-      @media only screen and (min-width: 90em) {
 
-        html {
-          font-size: 120%;
-        }
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
