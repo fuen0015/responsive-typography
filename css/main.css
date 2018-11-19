@@ -21,17 +21,17 @@ html {
 }
 
 body {
-  margin-top: none;
-  margin-bottom: 1.3rem;
+  margin: 0;
+  padding: 1rem;
 }
 
 article p {
-  margin-top: none;
+  margin-top: 0;
   margin-bottom: 1.3rem;
 }
 
 article ol {
-  margin-top: none;
+  margin-top: 0;
   margin-bottom: 1.3rem;
 }
 
@@ -45,10 +45,12 @@ article h1 {
 
 article header {
   border-bottom: 1px solid #999;
+  margin-bottom: 1.3rem;
 }
 
 article header p {
   font-style: italic;
+  margin-bottom: 1.3rem;
 }
 
 article > p:last-child {
@@ -61,6 +63,7 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin-bottom: 1.3rem;
 }
 
 .quote {
@@ -69,7 +72,8 @@ blockquote {
 }
 
 h1 {
-  margin-bottom: 0;
+  margin: 0;
+  padding-top: .3rem;
 }
 
 header p {
@@ -78,6 +82,7 @@ header p {
 
 ol {
   padding: 0 1em;
+  margin-bottom: 1.3rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -99,6 +104,7 @@ ol {
   article {
     margin-right: auto;
     margin-left: auto;
+    margin-top: .5em;
   }
 
   blockquote {
@@ -109,6 +115,10 @@ ol {
 }
 
 @media only screen and (min-width: 60em) {
+
+  article {
+    margin-top: 1.2rem;
+  }
 
   html {
     font-size: 120%;
